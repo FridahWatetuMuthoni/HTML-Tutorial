@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home, #about, #contact, #portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.para{
+    padding: 20px;
+}
+
+#about{
+    background-color: aqua;
+}
+
+#contact{
+    background-color: blueviolet;
+}
+
+#home{
+    background-color: chartreuse;
+}
+
+#portfolio{
+    background-color: chocolate;
+}
+
+#home,
+#about,
+#contact,
+#portfolio h1{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+}
+
+.navlinks a{
+    text-decoration: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    color:#333;
+}
+
+.navlinks a:hover{
+    color:grey;
+}
+
+.navbar h1 a{
+    text-decoration: none;
+    color:#333;
+}
